@@ -1,0 +1,53 @@
+# IntelliJ IDEA файлы
+.idea/
+*.iws
+*.iml
+*.ipr
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# Maven target директория
+target/*
+!target/site/
+
+# Maven специфичные файлы
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Системные файлы
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Файлы окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Файлы сборки
+out/
+build/
+dist/
